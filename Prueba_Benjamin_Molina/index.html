@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Arcade Blur</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header> 
+            <h1>Estacion Arcade - ¡Tu entretención total!</h1>
+            
+        </header>
+        <main>
+            <section>
+                <h3>Nuestros productos</h3>
+                <div class="Imagenes-consolas">
+
+                    <div class="consolas">
+                        <img src="pagina/imagenes/left4dead.png" alt="Portada Left 4 Dead">
+                        <p>Left 4 Dead</p>
+                    </div>
+                    <div class="consolas">
+                        <img src="pagina/imagenes/gta.png" alt="Portada GTA San Andreas">
+                        <p>GTA San Andreas</p>
+                    </div>
+                    <div class="consolas">
+                        <img src="pagina/imagenes/bo2.jpg" alt="Portada Black Ops 2">
+                        <p>Black Ops 2</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3>Gameplays de los videojuegos</h3>
+            
+             <div class="seccion-videos">
+                <div class="videos">
+                    <video controls>
+                        <source src="pagina/videos/GameplayLFD2.mp4" type="video/mp4">
+                        Tu navegador no soporta este video.
+                    </video>
+                </div>
+                <div class="videos">
+                    <video controls>
+                        <source src="pagina/videos/TrailerGTA.mp4" type="video/mp4">
+                        Tu navegador no soporta este video.
+                    </videos>
+                </div>
+                <div class="videos">
+                    <iframe
+                        src="https://www.youtube.com/watch?v=BbJ7CQqhFQg"
+                        title="Trailer Youtube"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+             </div>
+            </section>
+
+            <section>
+                <h3>Contacto</h3>
+                <form action="index2.html" method="get" class="formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Ingrese su nombre"
+                        required
+                    >
+                    <label for="apellido">Apellido:</label>
+                    <input
+                        type="text"
+                        id="apellido"
+                        name="apellido"
+                        placeholder="Ingrese su apellido"
+                        required />
+
+                    <label for="correo">Correo Electronico:</label>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="Ingrese su correo electronico"
+                        required />
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        placeholder="Ingrese su mensaje"
+                        required></textarea>
+                        <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+        <footer> 
+            <h4>© 2024 Empresa de videojuegos. Todos los derechos reservados.</h4>
+        </footer>
+    </body>
+
+</html>
